@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-blue {
+  @apply bg-blueMain font-Roboto-Flex  font-semibold text-center text-whiteSecondary rounded-lg py-3 px-6;
+}
+
+.button-white {
+  @apply border border-blueMain font-Roboto-Flex font-semibold text-center text-blueMain rounded-lg py-3 px-6;
+}
+
+.gallery-pagination {
+  @apply bg-checkboxMain text-blueMain  border-0 focus:ring-0 checked:bg-none;
+}
